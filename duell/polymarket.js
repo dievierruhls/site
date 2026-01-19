@@ -3,7 +3,7 @@ const profiles = [
     "0xf1ff528970690dd5f0f973d4f9cec352a0fd2c39"
 ];
 
-const CACHE_DURATION = 24 * 60 * 60 * 1000; // 24h
+const CACHE_DURATION = 4 * 60 * 60 * 1000; // 4h
 
 async function fetchWithProxy(url) {
     const response = await fetch(`https://corsproxy.io/?${encodeURIComponent(url)}`);
@@ -86,7 +86,7 @@ async function renderProfiles() {
                 </div>
                 <span class="duell-profile-name">${name}</span>
                 <div class="duell-profile-value">
-                    <span class="title">Aktive in Wetten</span>
+                    <span class="title">Aktiv in Wetten</span>
                     <span class="value">${value}</span>
                 </div>
                 <div class="duell-profile-value">
