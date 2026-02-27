@@ -1,6 +1,7 @@
 const profiles = [
     "0x73e24ba6a8506d592803048f70e821bc38c6c3a2",
-    "0xf1ff528970690dd5f0f973d4f9cec352a0fd2c39"
+    "0xf1ff528970690dd5f0f973d4f9cec352a0fd2c39",
+    "0xe3374b166ed25e01e44c3120eb79489f217b5b49"
 ];
 
 const CACHE_DURATION = 4 * 60 * 60 * 1000; // 4h
